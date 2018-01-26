@@ -9,9 +9,10 @@ console.log(el);
     that.fadeBuffer = false;
     that.messages = [
       'Good Evening, Mr. K',
-      'Your mission, should you choose to accept it, involves the recovery of a stolen item designated Chimera.',
+      'Your mission, should you choose to accept it, involves the recovery of Chimera.',
       'You may select any two team members',
-      'As always, should any member of your team be caught or killed, the Secretary will disavow all knowledge of your actions. ',
+      'Should any member of your team be caught or killed,',
+      'the Secretary will disavow all knowledge of your actions.',
       'end of message'
     ];
     setTimeout(that.animateIn, 100);
